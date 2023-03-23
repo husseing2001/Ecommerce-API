@@ -1,7 +1,7 @@
 from django.shortcuts import render, get_object_or_404
 from .serializers import CartSerializer, CartItemSerializer, AddCartSerializer
 from .models import Cart, CartItems
-from rest_framework import generics
+from rest_framework import generics, permissions
 
 
 # Create your views here.
@@ -9,6 +9,7 @@ from rest_framework import generics
 class CartList(generics.ListCreateAPIView):
     serializer_class = CartSerializer
     queryset = Cart.objects.all()
+    permission_classes = (permissions.IsAuthenticated,)
 
     def perform_create(self, serializer):
         serializer.save()
@@ -28,6 +29,7 @@ class CartDetail(generics.RetrieveUpdateDestroyAPIView):
 class CartItemsList(generics.ListCreateAPIView):
     serializer_class = CartItemSerializer
     queryset = CartItems.objects.all()
+    permission_classes = (permissions.IsAuthenticated,)
 
     def get_serializer_class(self):
         if self.request.method == "POST":

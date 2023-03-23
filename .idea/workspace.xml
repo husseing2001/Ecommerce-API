@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="afda8e7e-6bdb-4378-9c32-16c28fbdf4b7" name="Changes" comment="" />
+    <list default="true" id="afda8e7e-6bdb-4378-9c32-16c28fbdf4b7" name="Changes" comment="'initial commit'">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EcommerceAPI/EcommerceAPI/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/EcommerceAPI/EcommerceAPI/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EcommerceAPI/authentication/backend.py" beforeDir="false" afterPath="$PROJECT_DIR$/EcommerceAPI/authentication/backend.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EcommerceAPI/authentication/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/EcommerceAPI/authentication/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EcommerceAPI/authentication/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/EcommerceAPI/authentication/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EcommerceAPI/cart/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/EcommerceAPI/cart/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EcommerceAPI/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/EcommerceAPI/db.sqlite3" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,13 +34,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/husse/DjangoPractice/library2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/husse/DjangoPractice/library2&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\husse\PycharmProjects\EcommerceShop\EcommerceAPI\category" />
@@ -70,6 +78,14 @@
       <option name="presentableId" value="Default" />
       <updated>1678907126419</updated>
     </task>
+    <task id="LOCAL-00001" summary="'initial commit'">
+      <created>1679185857536</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1679185857536</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -82,6 +98,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="'initial commit'" />
+    <option name="LAST_COMMIT_MESSAGE" value="'initial commit'" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
